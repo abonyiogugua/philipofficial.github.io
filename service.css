@@ -1,0 +1,218 @@
+/* Reset default margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Basic styles */
+  body {
+    font-family: Arial, sans-serif;
+    background-color: black;
+  }
+   .heading{
+    text-align: center;
+    color: black;
+    background-color: aqua;
+    margin-top: 40px;
+    font-size: xx-large;
+    margin-bottom: 20px;
+    border-radius: 900%;
+   }
+
+  
+.image1{
+    text-align: center;
+    border: 20px solid black;
+    border-radius: 900px;
+    border-style: double;
+    background-color: aqua;
+}
+
+.content-text{
+    color: aqua;
+    text-align: center;
+    margin-top: 50px;
+    font-weight: bold;
+    border: 6px solid aqua;
+    border-style: double;
+    
+}
+
+.content1 h1{
+  color: black;
+  text-align: center;
+  font-weight: bolder;
+  
+  border-radius: 900%;
+  margin-top: 40px;
+  background-color: aqua;
+
+}
+
+.text1 p{
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border: 6px solid aqua;
+  color: aqua;
+  border-style: double;
+  
+}
+
+
+
+
+.content1>.main1{
+  text-align: center;
+  margin-top: 50px;
+}
+.content1{
+  border: 6px solid aqua;
+  border-style: double;
+}
+
+.content1>.text1 p{
+  text-align: center;
+  color: aqua;
+  
+  border: 6px solid aqua;
+    border-style: double;
+  margin-top: 30px;
+}
+
+ 
+.content2 h1{
+  text-align: center;
+  
+  border-radius: 900%;
+  background-color: aqua;
+  color: black;
+  font-weight: bolder;
+  margin-top: 40px;
+}
+  
+
+
+
+
+.content2>.main2{
+  text-align: center;
+  margin-top: 50px;
+
+}
+
+.content2{
+  
+  border-style: double;
+}
+
+.content2 p{
+  text-align: center;
+  color: aqua;
+  border-style: double;
+  border: 6px solid aqua;
+  margin-top: 30px;
+}
+.watch{
+  text-align: center;
+  margin-top: 30px;
+  
+}
+
+.word h2{
+ text-align:center ;
+ color: aqua;
+ font-weight: bolder;
+ font-size: xx-large;
+ margin-top: 70px;  
+}
+.cont a{
+  text-align: center;
+  text-decoration: none;
+  font-weight: bolder;
+  color: black;
+}
+.cont{
+  text-align: center;
+}
+
+.cont> button {
+  color: black;
+  background-color: red;
+  height: 800%;
+  width: 100px;
+  font-weight: bolder;
+  font-size: large;
+  border-radius: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+  .container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  header {
+    background-color:black   ;
+    color: #fff;
+    border: 20px solid aqua;
+    border-style: groove;
+
+  }
+  
+  nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .nav-links li {
+    display: inline;
+    margin-left: 10px;
+  }
+  
+  .nav-links a {
+    color: aqua;
+    text-decoration: none;
+    font-weight: bolder;
+    
+    
+  }
+  
+  
+  
+ 
+  footer {
+    background-color:aqua;
+    border: 6px solid black;
+    border-style: double;
+    font-weight: bold;
+    text-align: center;
+    padding: 10px;
+    margin-top: 100px;
+  }
+  
+  /* Media queries for responsive design */
+  @media only screen and (max-width: 768px) {
+    .container {
+      padding: 10px;
+    }
+  
+    nav {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  
+    .nav-links li {
+      display: block;
+      margin: 5px 0;
+    }
+  }

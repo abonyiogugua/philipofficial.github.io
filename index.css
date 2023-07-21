@@ -1,0 +1,223 @@
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+  
+  body {
+    font-family: Arial, sans-serif;
+    background-color: black;
+  }
+  
+  .container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+
+
+
+.photo{ 
+  text-align: center;  
+  
+  border: 6px solid aqua;
+  border-style: double;
+  border-top: none;
+}
+
+.photo> h1{
+  color: black;
+  margin-top: 10px;
+  font-stretch: expanded;
+  margin-bottom: 20px;
+  border: 6px solid black;
+  border-style: dotted;
+  border-radius: 700px;
+  background-color: aqua;
+  font-weight: bolder;
+  font-size: xx-large;
+
+  
+  
+
+}
+
+.heading {
+  color: black;
+  font-size: xx-large;
+  text-align: center;
+  margin-top: 30px;
+  border: 20px solid black;
+  border-style: double;
+  font-stretch: ultra-expanded;
+  background-color: aqua;
+  border-radius: 900px;
+  border-style: double;
+  margin-bottom: none;
+}
+
+
+.container2{
+  color: black;
+  font-weight: bolder;
+  text-align: center;
+  
+  background-color: gray;
+  border: 6px solid aqua;
+  border-style: groove;
+  border-top: none;
+}
+
+.question{
+  color: red;
+  margin-bottom:50px;
+  margin-top: 10px;
+}
+
+.container2>.container3{
+  border-bottom: 10px solid gray;
+}
+
+
+
+  header {
+    background-color:black;
+    
+    padding: 10px;
+    border: 20px solid aqua;
+    border-style: groove;
+  }
+  
+  nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .nav-links li {
+    display: inline;
+    margin-left: 10px;
+  }
+  
+  .nav-links a {
+    color: aqua;
+    text-decoration: none;
+    font-weight: bolder;
+  }
+  
+  section {
+    margin: 40px 0;
+  }
+  
+  h2 {
+    margin-bottom: 20px;
+  }
+  
+  .project {
+    margin-bottom: 40px;
+  }
+  
+  img {
+    max-width: 100%;
+  }
+  
+  form input,
+  form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  
+  form button {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  footer {
+    background-color:aqua;
+    border: 8px solid black;
+    border-style: double;
+    text-align: center;
+    padding: 10px;
+    font-weight: bolder;
+  }
+
+
+.include{
+  color: aqua;
+  
+  font-weight: bolder;
+  text-align: center;
+  border: 6px solid aqua;
+  border-style: double;
+  border-top: none;
+}
+
+.projects{
+  text-align: center;
+  justify-content: space-between;
+  border: 6px solid aqua;
+  border-style: double;
+  
+}
+
+
+.text{
+  text-align: center;
+  color: white;
+  border: 6px solid aqua;
+  
+  border-style: double;
+}
+ .project2{
+  text-align: center;
+  border: 6px solid aqua;
+  border-style: double;
+ }
+
+ .text2{
+  color: white;
+  
+  border: 6px solid aqua;
+  border-style: double;
+  
+ }
+
+  
+  /* Media queries for responsive design */
+  @media only screen and (max-width: 768px) {
+    .container {
+      padding: 10px;
+    }
+  
+    nav {
+      flex-direction: column;
+      align-items: flex-start;
+      
+    }
+  
+    .nav-links li {
+      display: block;
+      margin: 5px 0;
+    }
+  }
+  .container4{
+    border: 8px solid black;
+    border-style: double;
+    background-color: aqua;
+  }
+  .container4 h2{
+    color: black;
+    
+  }
+
+  
+  
+  
+

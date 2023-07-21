@@ -1,0 +1,153 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+  
+  body {
+    font-family: Arial, sans-serif;
+    background-color: black;
+  }
+  
+  .container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+
+
+.content1 h1{
+  text-align: center;
+  color: black;
+  margin-top: 50px;
+  border: 6px solid black;
+  background-color: aqua;
+  border-style: double;
+  border-radius: 900%;
+}
+
+.text6 h2{
+  color: aqua;
+  text-align: center;
+  font-weight: bold;
+
+
+}
+
+.text6{
+  border: 6px solid aqua;
+  border-style: double;
+  margin-top: 50px;
+}
+
+.main{
+  text-align: center;
+  margin-top: 80px;
+  border: 6px solid aqua;
+  border-radius: 900%;
+  margin-bottom: 80px;
+}
+
+
+
+
+
+
+  header {
+    background-color:black;
+    
+    padding: 10px;
+    border: 20px solid aqua;
+    border-style: groove;
+  }
+  
+  nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .nav-links li {
+    display: inline;
+    margin-left: 10px;
+  }
+  
+  .nav-links a {
+    color: aqua;
+    text-decoration: none;
+    font-weight: bolder;
+  }
+  
+  section {
+    margin: 40px 0;
+  }
+  
+  
+  
+ 
+  
+  form input,
+  form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  
+  form button {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  footer {
+    background-color:aqua;
+    border: 8px solid black;
+    border-style: double;
+    text-align: center;
+    padding: 10px;
+    font-weight: bolder;
+  }
+
+
+
+
+
+  
+  /* Media queries for responsive design */
+  @media only screen and (max-width: 768px) {
+    .container {
+      padding: 10px;
+    }
+  
+    nav {
+      flex-direction: column;
+      align-items: flex-start;
+      
+    }
+  
+    .nav-links li {
+      display: block;
+      margin: 5px 0;
+    }
+  }
+  .container4{
+    border: 8px solid black;
+    border-style: double;
+    background-color: aqua;
+    margin-top: 80px;
+    margin-bottom: 80px;
+  }
+  .container4 h2{
+    color: black;
+    
+  }
+
+  
+  
+  
+
+
+  
+ 
